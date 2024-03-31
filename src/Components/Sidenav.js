@@ -1,4 +1,4 @@
-import { navData } from "../lib/navData";
+import { sidenavData } from "../lib/sidenavData";
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import styles from "./Sidenav.module.css"
@@ -16,8 +16,10 @@ export default function Sidenav() {
             <button className={styles.menuBtn} onClick={toggleExpanded}>
                 {expanded ? <KeyboardDoubleArrowLeftIcon/> : <KeyboardDoubleArrowRightIcon/>}
             </button>
-            {navData.map(item => {
-                return <NavLink key={item.id} className={styles.sideitem} to={item.link}>
+            {sidenavData.map(item => {
+                return <NavLink key={item.id}
+                                className={({isActive}) => [styles.sideitem, isActive ? styles.active : ""].join(" ")}
+                                to={item.link}>
                     {item.icon}
                     <span className={expanded ? styles.linkText : styles.linkTextClosed}>{item.text}</span>
                 </NavLink>
