@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/research-seminar-test-page/static/css/main.ecb5c19d.css",
-    "main.js": "/research-seminar-test-page/static/js/main.fac9f7f5.js",
+    "main.js": "/research-seminar-test-page/static/js/main.adeec5a2.js",
     "static/media/img.png": "/research-seminar-test-page/static/media/img.ce0972e6638e9ad07ff0.png",
     "index.html": "/research-seminar-test-page/index.html",
     "main.ecb5c19d.css.map": "/research-seminar-test-page/static/css/main.ecb5c19d.css.map",
-    "main.fac9f7f5.js.map": "/research-seminar-test-page/static/js/main.fac9f7f5.js.map"
+    "main.adeec5a2.js.map": "/research-seminar-test-page/static/js/main.adeec5a2.js.map"
   },
   "entrypoints": [
     "static/css/main.ecb5c19d.css",
-    "static/js/main.fac9f7f5.js"
+    "static/js/main.adeec5a2.js"
   ]
 }
