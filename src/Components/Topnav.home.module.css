@@ -1,4 +1,5 @@
 .topnav {
+    font-size: 1.5em;
     background-color: rgb(37, 87, 148);
     overflow: hidden;
     position: sticky; /* Set the navbar to fixed position */
@@ -6,7 +7,7 @@
     width: 100%; /* Full width */
 }
 
-.topnav a {
+.topnavItem {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -15,13 +16,17 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnavItem:hover {
     background-color: #ddd;
     color: black;
 }
 
 /* Add a color to the active/current link */
-.active {
-    background-color: #04AA6D;
-    color: white;
+.activeItem {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #f2f2f2;
+    background-color: rgb(10,25,41);
 }

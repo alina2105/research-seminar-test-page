@@ -1,10 +1,9 @@
-import styles from "./Page.module.css";
 import {topnavData} from "../lib/topnavData";
 import Topnav from "../Components/Topnav";
 
-export default function Page({keyNavData, pageComponent}) {
+export default function Page({keyNavData, pageComponent, topNavStyle}) {
     return (<>
-        <Topnav items={topnavData[keyNavData]}/>
+        <Topnav items={topnavData[keyNavData]} styles={topNavStyle}/>
         {pageComponent}
     </>);
 }

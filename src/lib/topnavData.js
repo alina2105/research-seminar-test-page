@@ -14,13 +14,18 @@ export const topnavData = {
     history: [
         {
             id: 0,
-            text: "Some interesting topic",
-            link: "1"
+            text: "1834",
+            link: "/history/1834"
         },
         {
             id: 1,
-            text: "Another interesting topic",
-            link: "/history/2"
+            text: "1920",
+            link: "/history/1920"
+        },
+        {
+            id: 2,
+            text: "2010",
+            link: "history/2010"
         }
     ],
 };

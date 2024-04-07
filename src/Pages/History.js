@@ -1,5 +1,5 @@
 import styles from "./Page.module.css";
-import img from './img.png';
+import img from '../static/img.png';
 
 export default function History() {
     return (<>

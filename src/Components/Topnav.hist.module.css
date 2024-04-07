@@ -1,0 +1,62 @@
+.topnav {
+    font-size: 1.5em;
+    background-color: rgb(37, 87, 148);
+    overflow: hidden;
+    position: sticky; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.topnavItem {
+    width: 50px;
+    height: 50px;
+    float: left;
+    color: #f2f2f2;
+    background-color: rgb(37, 87, 148);
+    text-align: center;
+    padding: 24px 26px;
+    margin: 24px 26px;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex; /* or inline-flex */
+    align-items: center;
+    justify-content: center;
+}
+.topnavItem::before{
+    content: '';
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    /*left: 10%;*/
+    width: 200%;
+    height: 2px;
+    z-index: -1;
+}
+
+.topnavItem:first-child::before {
+  display: none;
+}
+
+/* Change the color of links on hover */
+.topnavItem:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.activeItem {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    float: left;
+    color: rgb(17, 50, 89);
+    text-align: center;
+    padding: 24px 26px;
+    margin: 24px 26px;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex; /* or inline-flex */
+    align-items: center;
+    justify-content: center;
+}
