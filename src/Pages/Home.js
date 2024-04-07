@@ -10,7 +10,7 @@ import img from "../static/img.png"
 export default function Home() {
     const navigate = useNavigate();
     function handleClick() {
-        navigate("/1");
+        navigate("1");
     }
     return (<>
         <div className={styles.content}>

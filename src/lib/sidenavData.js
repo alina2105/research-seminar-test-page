@@ -9,12 +9,12 @@ export const sidenavData = [
         id: 0,
         icon: <HomeIcon/>,
         text: "Home",
-        link: "/"
+        link: "/research-seminar-test-page"
     },
     {
         id: 1,
         icon: <TimelineIcon/>,
         text: "History",
-        link: "history/1834"
+        link: "/research-seminar-test-page/history/1834"
     }
 ]

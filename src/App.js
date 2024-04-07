@@ -21,13 +21,13 @@ function App() {
             <div className="main-content">
                 <main>
                     <Routes>
-                        <Route path="/" element={
+                        <Route path="research-seminar-test-page/" element={
                             <Page keyNavData={"home"} pageComponent={<Home/>} topNavStyle={homeStyles}/>
                         }/>
-                        <Route path="/1" element={
+                        <Route path="research-seminar-test-page/1" element={
                             <Page keyNavData={"home"} pageComponent={<Home_1/>} topNavStyle={homeStyles}/>
                         }/>
-                        <Route path="/history/1834" element={
+                        <Route path="research-seminar-test-page/history/1834" element={
                             <Page keyNavData={"history"} pageComponent={<History/>} topNavStyle={historyStyles}/>
                         }/>
                         {/*<Route path="/explore" element={<Explore />} />*/}
